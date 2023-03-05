@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+			body {
+				margin-left: 50px;
+				background-color: #aaffff;
+			}
+		</style>
+	</head>
+	<body>
+	<h1>More Than One Condition: OR Operator</h1>
+	<h3>Do you qualify for good driver discount?</h3>
+		<p>Please complete the form below to find out!</p>
+		
+		<form>
+			<label>Please enter your age:</label>
+			<input type="text" size="5" name="client" id="age"> <br><br>
+
+			<label>Have you taken defensive driving course?</label>
+			<p><input type="radio" name="def_drive" id="def_yes">Yes</p>
+			<p><input type="radio" name="def_drive" id="def_no">No</p>
+			<label>Have you had an accident in the past 5 years?</label>
+			<p><input type="radio" name="accident" id="acc_yes">Yes</p>
+			<p><input type="radio" name="accident" id="acc_no">No</p>
+			<p><input type="reset" name="reset" id="btnReset" value="Reset">
+			   <input type="button" name="submit" id="btnSubmit" value="Submit">
+			</p>					
+		</form>
+		<script src="scripts/Driving_Discount.js"></script>
+	</body>
+</html>
